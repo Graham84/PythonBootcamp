@@ -21,7 +21,7 @@ print len(t)
 # 3
 
 # Can also mix object types
-t = ('one',2)
+t = ('one', 2)
 # Show
 print t
 # ('one', 2)
