@@ -14,6 +14,7 @@
 # Lets go through an example of creating a Circle class:
 
 class Circle(object):
+    # Class object attribute
     pi = 3.14
 
     # Circle get instantiated with a radius (default is 1)
