@@ -10,3 +10,33 @@ Creating methods in a class
 Learning about Inheritance
 Learning about Special Methods for classes
 '''
+
+# Lets start the lesson by remembering about the Basic Python Objects. For example:
+l = [1, 2, 3]
+
+# Remember how we could call methods on a list?
+print l.count(2)
+# 1
+
+# What we will basically be doing in this lecture is exploring how we could create an Object type like a list.
+# We've already learned about how to create functions. So lets explore Objects in general:
+
+# Objects
+# In Python, everything is an object. Remember from previous lectures we can use type() to check the type of object something is:
+
+print type(1)
+print type([])
+print type(())
+print type({})
+
+# <type 'int'>
+# <type 'list'>
+# <type 'tuple'>
+# <type 'dict'>
+
+# So we know all these things are objects, so how can we create our own Object types? That is where the class keyword comes in.
+
+def square(num):
+    return num ** 2
+
+print type(square)
